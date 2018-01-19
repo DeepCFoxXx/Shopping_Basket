@@ -1,7 +1,8 @@
 package discount;
 
 import java.util.ArrayList;
-import basket.*;
+
+import items.Item;
 
 public interface IDiscount {
 
