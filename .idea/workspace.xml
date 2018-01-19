@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7adf7163-c522-4553-b0c2-6844aad9d783" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/itemTest/TunaTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/items/Tuna.class" afterPath="$PROJECT_DIR$/out/production/classes/items/Tuna.class" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basket/Basket.java" afterPath="$PROJECT_DIR$/src/main/java/basket/Basket.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/Item.java" afterPath="$PROJECT_DIR$/src/main/java/items/Item.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/Tuna.java" afterPath="$PROJECT_DIR$/src/main/java/items/Tuna.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/basketTest/BasketTest.java" afterPath="$PROJECT_DIR$/src/test/java/basketTest/BasketTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,14 +28,18 @@
       <file leaf-file-name="Basket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/basket/Basket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="345">
+              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#213#214#0" expanded="true" />
                 <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,14 +48,14 @@
       <file leaf-file-name="BasketTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/basketTest/BasketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="147">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -447,22 +446,6 @@
               <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
               <item name="day_05" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_05" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_05" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -471,14 +454,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShoppingBasket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day_05" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basketTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -505,7 +480,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasketTest.basketStartsEmpty">
+  <component name="RunManager" selected="JUnit.All in ShoppingBasket_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -571,20 +546,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RiceCakesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketTest.canAddToBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="itemTest.*" />
+          <option name="PATTERN" value="basketTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ShoppingBasket_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="itemTest" />
-      <option name="MAIN_CLASS_NAME" value="itemTest.RiceCakesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="basketTest" />
+      <option name="MAIN_CLASS_NAME" value="basketTest.BasketTest" />
+      <option name="METHOD_NAME" value="canAddToBasket" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -596,20 +571,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketTest.canRemaoveObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="itemTest.*" />
+          <option name="PATTERN" value="basketTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ShoppingBasket_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="itemTest" />
-      <option name="MAIN_CLASS_NAME" value="itemTest.RiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="basketTest" />
+      <option name="MAIN_CLASS_NAME" value="basketTest.BasketTest" />
+      <option name="METHOD_NAME" value="canRemaoveObject" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -621,20 +596,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TunaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketTest.canRemoveFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="itemTest.*" />
+          <option name="PATTERN" value="basketTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ShoppingBasket_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="itemTest" />
-      <option name="MAIN_CLASS_NAME" value="itemTest.TunaTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="basketTest" />
+      <option name="MAIN_CLASS_NAME" value="basketTest.BasketTest" />
+      <option name="METHOD_NAME" value="canRemoveFromBasket" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -707,19 +682,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RiceTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RiceCakesTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TunaTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BasketTest.basketStartsEmpty" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BasketTest.basketStartsEmpty" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest.canAddToBasket" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTest.canRemoveFromBasket" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BasketTest.canRemaoveObject" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BasketTest.basketStartsEmpty" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TunaTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RiceCakesTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RiceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BasketTest.canRemaoveObject" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest.canRemoveFromBasket" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTest.canAddToBasket" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BasketTest.basketStartsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -743,20 +718,20 @@
     <history-entry file="All_in_ShoppingBasket_test - 2018.01.19 at 16h 28m 52s.xml">
       <configuration name="All in ShoppingBasket_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_ShoppingBasket_test - 2018.01.19 at 17h 00m 19s.xml">
+      <configuration name="All in ShoppingBasket_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BasketTest_basketStartsEmpty - 2018.01.19 at 16h 50m 47s.xml">
       <configuration name="BasketTest.basketStartsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurryPasteTest - 2018.01.19 at 16h 01m 04s.xml">
-      <configuration name="CurryPasteTest" configurationId="JUnit" />
+    <history-entry file="BasketTest_canAddToBasket - 2018.01.19 at 16h 52m 58s.xml">
+      <configuration name="BasketTest.canAddToBasket" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NaanBreadTest - 2018.01.19 at 16h 05m 35s.xml">
-      <configuration name="NaanBreadTest" configurationId="JUnit" />
+    <history-entry file="BasketTest_canRemaoveObject - 2018.01.19 at 16h 59m 38s.xml">
+      <configuration name="BasketTest.canRemaoveObject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonBrandGermanLiltTest - 2018.01.19 at 16h 12m 07s.xml">
-      <configuration name="NonBrandGermanLiltTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PineappleTest - 2018.01.19 at 16h 15m 04s.xml">
-      <configuration name="PineappleTest" configurationId="JUnit" />
+    <history-entry file="BasketTest_canRemoveFromBasket - 2018.01.19 at 16h 57m 35s.xml">
+      <configuration name="BasketTest.canRemoveFromBasket" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RiceCakesTest - 2018.01.19 at 16h 22m 59s.xml">
       <configuration name="RiceCakesTest" configurationId="JUnit" />
@@ -773,7 +748,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -792,13 +766,13 @@
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5081967" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -811,6 +785,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/discount/IDiscount.java">
@@ -1062,28 +1040,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/basket/Basket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/basketTest/BasketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="147">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
           </folding>
         </state>
       </provider>
