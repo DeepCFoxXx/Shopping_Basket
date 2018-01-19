@@ -1,8 +1,7 @@
 package basketTest;
 
 import basket.Basket;
-import items.Chicken;
-import items.Item;
+import items.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,6 +12,14 @@ public class BasketTest {
     Basket basket;
     Item item;
     Chicken chicken;
+    CurryPaste curryPaste;
+    NaanBread naanBread;
+    NonBrandGermanLilt nonBrandGermanLilt;
+    Pineapple pineapple;
+    RiceCakes riceCakes;
+    Rice rice;
+    Tuna tuna;
+
 
     @Before
     public void before() {
@@ -51,6 +58,19 @@ public class BasketTest {
         basket.addItem(item);
         basket.clearBasket(item);
         assertEquals(0, basket.getCount());
+    }
+
+    @Test
+    public void canGetTotalValue() {
+        basket.addItem(chicken);
+        basket.addItem(curryPaste);
+        basket.addItem(naanBread);
+        basket.addItem(nonBrandGermanLilt);
+        basket.addItem(pineapple);
+        basket.addItem(riceCakes);
+        basket.addItem(rice);
+        basket.addItem(tuna);
+        assertEquals(10.0, basket.getTotalValue());
     }
 
 }
