@@ -19,4 +19,10 @@ public class ChickenTest {
     public void chickenHasName() {
         assertEquals("Chicken", chicken.getName());
     }
+
+    @Test
+    public void chickenHasPrice() {
+        assertEquals(10.0, chicken.getPrice());
+    }
+
 }
