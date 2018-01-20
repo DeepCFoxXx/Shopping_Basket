@@ -61,7 +61,7 @@ public class BasketTest {
     }
 
     @Test
-    public void canGetTotalValue() {
+    public void canAddAllItems() {
         basket.addItem(chicken);
         basket.addItem(curryPaste);
         basket.addItem(naanBread);
@@ -70,7 +70,20 @@ public class BasketTest {
         basket.addItem(riceCakes);
         basket.addItem(rice);
         basket.addItem(tuna);
-        assertEquals(10.0, basket.getTotalValue());
+        assertEquals(8, basket.getCount());
+    }
+
+    @Test
+    public void canGetTotalValue() {
+        basket.addName("Chicken");
+        basket.addName("Curry Paste");
+        basket.addName("Naan Bread");
+        basket.addName("Non Brand German Lilt");
+        basket.addName("Pineapple");
+        basket.addName("Rice Cakes");
+        basket.addName("rice");
+        basket.addName("tuna");
+        assertEquals(20.20, basket.getTotalValue(),0.01);
     }
 
 }

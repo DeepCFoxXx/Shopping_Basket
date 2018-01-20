@@ -1,11 +1,10 @@
 package items;
 
-import java.util.ArrayList;
 
 public abstract class Item {
 
     private String name;
-    private double price;
+    public double price;
 
 
     public Item(String name, double price) {
