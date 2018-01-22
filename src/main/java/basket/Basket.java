@@ -1,5 +1,6 @@
 package basket;
 
+import discount.IDiscount;
 import items.*;
 
 import java.util.ArrayList;
@@ -8,10 +9,14 @@ public class Basket {
 
     private ArrayList<Item> items;
     private ArrayList<String> names;
+    private ArrayList<IDiscount> discounts;
 
     public Basket() {
         items = new ArrayList();
-        names = new ArrayList<>();
+    }
+
+    public void addDiscount(IDiscount d){
+        this.discounts.add(d);
     }
 
     public int getCount() {
@@ -30,34 +35,12 @@ public class Basket {
         this.items.clear();
     }
 
-    public void addName(String names) {
-        this.names.add(names);
-    }
-
     public double getTotalValue() {
         double total = 0;
 
-        for(String x: names) {
-
-            if (x.equals("Chicken")) {
-                    total += 10.0;
-            } else if (x.equals("Curry Paste")) {
-                    total += 1.80;
-            } else if (x.equals("Naan Bread")) {
-                    total += 1.75;
-            } else if (x.equals("Non Brand German Lilt")) {
-                    total += 0.65;
-            } else if (x.equals("Pineapple")) {
-                    total += 0.90;
-            } else if (x.equals("Rice Cakes")) {
-                    total += 1.30;
-            } else if (x.equals("rice")) {
-                    total += 1.00;
-            } else if (x.equals("tuna")) {
-                    total += 2.80;
+        for(Item item : items) {
+            total += item.getPrice();
             }
-
-        }
 
             return total;
     }

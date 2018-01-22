@@ -1,7 +1,7 @@
 package items;
 
 
-public abstract class Item {
+public class Item {
 
     private String name;
     public double price;

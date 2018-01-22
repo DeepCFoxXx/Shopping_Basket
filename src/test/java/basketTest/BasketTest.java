@@ -11,15 +11,6 @@ public class BasketTest {
 
     Basket basket;
     Item item;
-    Chicken chicken;
-    CurryPaste curryPaste;
-    NaanBread naanBread;
-    NonBrandGermanLilt nonBrandGermanLilt;
-    Pineapple pineapple;
-    RiceCakes riceCakes;
-    Rice rice;
-    Tuna tuna;
-
 
     @Before
     public void before() {
@@ -48,8 +39,8 @@ public class BasketTest {
 
     @Test
     public void canRemoveObject() {
-        chicken = new Chicken("Chicken", 10.0);
-        basket.addItem(chicken);
+        item = new Item("Chicken", 10.0);
+        basket.addItem(item);
         assertEquals(1, basket.getCount());
     }
 
@@ -60,30 +51,14 @@ public class BasketTest {
         assertEquals(0, basket.getCount());
     }
 
-    @Test
-    public void canAddAllItems() {
-        basket.addItem(chicken);
-        basket.addItem(curryPaste);
-        basket.addItem(naanBread);
-        basket.addItem(nonBrandGermanLilt);
-        basket.addItem(pineapple);
-        basket.addItem(riceCakes);
-        basket.addItem(rice);
-        basket.addItem(tuna);
-        assertEquals(8, basket.getCount());
-    }
 
     @Test
     public void canGetTotalValue() {
-        basket.addName("Chicken");
-        basket.addName("Curry Paste");
-        basket.addName("Naan Bread");
-        basket.addName("Non Brand German Lilt");
-        basket.addName("Pineapple");
-        basket.addName("Rice Cakes");
-        basket.addName("rice");
-        basket.addName("tuna");
-        assertEquals(20.20, basket.getTotalValue(),0.01);
+        basket.addItem(new Item("Chicken", 10.0));
+        basket.addItem(new Item("Curry Paste", 1.50));
+        basket.addItem(new Item("Naan Bread", 1.75));
+        basket.addItem(new Item("Rice", 1.25));
+        assertEquals(14.50, basket.getTotalValue(),0.01);
     }
 
 }
