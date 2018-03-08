@@ -1,7 +1,7 @@
 package basketTest;
 
 import basket.Basket;
-import items.*;
+import basket.Item;
 import org.junit.Before;
 import org.junit.Test;
 

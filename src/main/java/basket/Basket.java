@@ -1,22 +1,14 @@
 package basket;
 
-import discount.IDiscount;
-import items.*;
 
 import java.util.ArrayList;
 
 public class Basket {
 
     private ArrayList<Item> items;
-    private ArrayList<String> names;
-    private ArrayList<IDiscount> discounts;
 
     public Basket() {
         items = new ArrayList();
-    }
-
-    public void addDiscount(IDiscount d){
-        this.discounts.add(d);
     }
 
     public int getCount() {
