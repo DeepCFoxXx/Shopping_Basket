@@ -1,11 +1,14 @@
 package basket;
 
 
+import discount.Discount;
+
 import java.util.ArrayList;
 
 public class Basket {
 
-    private ArrayList<Item> items;
+    private ArrayList<Item> items = new ArrayList<Item>();
+    private ArrayList<Discount>  discounts = new ArrayList<Discount>();
 
     public Basket() {
         items = new ArrayList();
