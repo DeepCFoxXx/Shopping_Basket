@@ -60,17 +60,17 @@ public class BasketTest {
         basket.addItem(new Item("Curry Paste", 1.50));
         basket.addItem(new Item("Naan Bread", 1.75));
         basket.addItem(new Item("Rice", 1.25));
-        assertEquals(14.50, basket.getTotalValue(),0.01);
+        assertEquals(14.50, basket.total(),0.01);
     }
 
-//    @Test
-//    public void canUseDiscounts() {
-//        Basket myBasket = new Basket();
-//        Item Chocolate = new Item("Chocolate",2.00);
-//        myBasket.addItem(Chocolate);
-//        Discount poundOff = new SimpleDiscount(1.00);
-//        myBasket.applyDiscount(poundOff);
-//        assertEquals(1.00, myBasket.getTotalValue(), 0.0001);
-//    }
+    @Test
+    public void canUseDiscounts() {
+        Basket myBasket = new Basket();
+        Item Chocolate = new Item("Chocolate",2.00);
+        myBasket.addItem(Chocolate);
+        Discount poundOff = new SimpleDiscount(1.00);
+        myBasket.applyDiscount(poundOff);
+        assertEquals(1.00, myBasket.total(), 0.0001);
+    }
 
 }

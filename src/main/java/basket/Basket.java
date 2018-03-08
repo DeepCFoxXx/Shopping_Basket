@@ -30,14 +30,26 @@ public class Basket {
         this.items.clear();
     }
 
-    public double getTotalValue() {
-        double total = 0;
+    public double total() {
+        double sum = 0.0;
+        for (Item item : this.items) {
+            sum = sum + item.getPrice();
+        }
+        return sum - this.totalDiscount(sum);
+    }
 
-        for(Item item : items) {
-            total += item.getPrice();
-            }
+    public void applyDiscount(Discount discount) {
+     discounts.add(discount);
+    }
 
-            return total;
+    private double totalDiscount(double totalWithoutDiscount) {
+        double savings = 0.0;
+        double totalToDiscount = totalWithoutDiscount;
+        for (Discount discount: this.discounts) {
+            totalToDiscount = totalWithoutDiscount - savings;
+            savings = savings + discount.totalDiscount(this.items, totalToDiscount);
+        }
+        return savings;
     }
 
 
