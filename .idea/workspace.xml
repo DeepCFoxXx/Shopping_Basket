@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7adf7163-c522-4553-b0c2-6844aad9d783" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/basket/Basket.class" afterPath="$PROJECT_DIR$/out/production/classes/basket/Basket.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/discount/BOGOFF.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/discount/IDiscount.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/items/Item.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/basketTest/BasketTest.class" afterPath="$PROJECT_DIR$/out/test/classes/basketTest/BasketTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basket/Basket.java" afterPath="$PROJECT_DIR$/src/main/java/basket/Basket.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discount/BOGOFF.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discount/IDiscount.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discount/LoyaltyCard.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/discount/TenWhenTwenty.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/items/Item.java" afterPath="$PROJECT_DIR$/src/main/java/basket/Item.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basketTest/BasketTest.java" afterPath="$PROJECT_DIR$/src/test/java/basketTest/BasketTest.java" />
-    </list>
+    <list default="true" id="7adf7163-c522-4553-b0c2-6844aad9d783" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -779,6 +765,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
