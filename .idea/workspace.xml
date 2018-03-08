@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7adf7163-c522-4553-b0c2-6844aad9d783" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/discount/PercentageDiscount.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/discountTest/PercentageDiscountTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/discountTest/PercentageDiscountTest.java" afterPath="$PROJECT_DIR$/src/test/java/discountTest/PercentageDiscountTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="PercentageDiscountTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/discountTest/PercentageDiscountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="309">
+              <caret line="19" column="91" lean-forward="false" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -510,7 +508,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PercentageDiscountTest.percentageTotal">
+  <component name="RunManager" selected="JUnit.All in ShoppingBasket_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -551,31 +549,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="basketTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ShoppingBasket_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="basketTest" />
-      <option name="MAIN_CLASS_NAME" value="basketTest.BasketTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="BasketTest.canUseDiscounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -589,6 +562,31 @@
       <option name="PACKAGE_NAME" value="basketTest" />
       <option name="MAIN_CLASS_NAME" value="basketTest.BasketTest" />
       <option name="METHOD_NAME" value="canUseDiscounts" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PercentageDiscountTest.noDiscountBelowThreshold" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="discountTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ShoppingBasket_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="discountTest" />
+      <option name="MAIN_CLASS_NAME" value="discountTest.PercentageDiscountTest" />
+      <option name="METHOD_NAME" value="noDiscountBelowThreshold" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -712,19 +710,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.basketTest in ShoppingBasket_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTest.canUseDiscounts" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PercentageDiscountTest.percentageTotal" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.basketTest in ShoppingBasket_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BasketTest.canUseDiscounts" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PercentageDiscountTest.percentageTotal" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PercentageDiscountTest.noDiscountBelowThreshold" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PercentageDiscountTest.percentageTotal" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.basketTest in ShoppingBasket_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest.canUseDiscounts" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BasketTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PercentageDiscountTest.noDiscountBelowThreshold" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PercentageDiscountTest.percentageTotal" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.basketTest in ShoppingBasket_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BasketTest.canUseDiscounts" />
       </list>
     </recent_temporary>
   </component>
@@ -745,11 +743,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasketTest_canGetTotalValue - 2018.01.20 at 16h 50m 04s.xml">
-      <configuration name="BasketTest.canGetTotalValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BasketTest_canGetTotalValue - 2018.01.22 at 09h 29m 14s.xml">
-      <configuration name="BasketTest.canGetTotalValue" configurationId="JUnit" />
+    <history-entry file="All_in_ShoppingBasket_test - 2018.03.08 at 14h 23m 30s.xml">
+      <configuration name="All in ShoppingBasket_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BasketTest_canGetTotalValue - 2018.01.22 at 09h 42m 54s.xml">
       <configuration name="BasketTest.canGetTotalValue" configurationId="JUnit" />
@@ -762,6 +757,9 @@
     </history-entry>
     <history-entry file="BasketTest_canUseDiscounts - 2018.03.08 at 13h 56m 25s.xml">
       <configuration name="BasketTest.canUseDiscounts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PercentageDiscountTest_noDiscountBelowThreshold - 2018.03.08 at 14h 23m 22s.xml">
+      <configuration name="PercentageDiscountTest.noDiscountBelowThreshold" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PercentageDiscountTest_percentageTotal - 2018.03.08 at 14h 19m 26s.xml">
       <configuration name="PercentageDiscountTest.percentageTotal" configurationId="JUnit" />
@@ -778,7 +776,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1037,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/discountTest/PercentageDiscountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="309">
+          <caret line="19" column="91" lean-forward="false" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

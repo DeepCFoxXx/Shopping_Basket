@@ -15,4 +15,8 @@ public class PercentageDiscountTest {
         assertEquals( 10.0, tenPercentDiscount.totalDiscount(new ArrayList<Item>(), 100), 0.001);
     }
 
+    @Test public void noDiscountBelowThreshold() {
+        PercentageDiscount tenPercentDiscount = new PercentageDiscount(0.1, 100.00);
+        assertEquals(0.0, tenPercentDiscount.totalDiscount(new ArrayList<Item>(),50), 0.001);
+    }
 }
