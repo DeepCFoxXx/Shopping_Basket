@@ -17,8 +17,7 @@ public class BogofDiscountTest {
         assertEquals(0.0, bogof.totalDiscount(items, 0.0), 0.001);
     }
 
-    @Test
-    public void shouldGiveSavingIfTwoBogofItems(){
+    @Test public void shouldGiveSavingIfTwoBogofItems(){
         BogofDiscount bogof = new BogofDiscount();
         bogof.addDiscountItem("Pasta");
         ArrayList<Item> items = new ArrayList<Item>();
@@ -27,6 +26,15 @@ public class BogofDiscountTest {
         items.add( pasta1 );
         items.add( pasta2 );
         assertEquals( 1.50, bogof.totalDiscount( items, 0.0  ), 0.001 );
+    }
+
+    @Test public void shouldNotGiveDiscountIfOneItem() {
+        BogofDiscount bogof = new BogofDiscount();
+        bogof.addDiscountItem("Pasta");
+        ArrayList<Item> items = new ArrayList<Item>();
+        Item pasta1 = new Item("Pasta", 1.50);
+        items.add( pasta1 );
+        assertEquals( 0.0, bogof.totalDiscount( items, 0.0  ), 0.001 );
     }
 
 }
