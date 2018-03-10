@@ -12,7 +12,7 @@ public class BogofDiscount implements Discount{
         bogofItemNames.add(itemName);
     }
 
-    private int numberOfItems( ArrayList<Item> items, String name ) {
+    private int numberOfItems(ArrayList<Item> items, String name) {
         int count = 0;
         for ( Item item : items ){
             if ( item.getName() == name) {
@@ -20,6 +20,20 @@ public class BogofDiscount implements Discount{
             }
         }
         return count;
+    }
+
+    private double valueOfItem(ArrayList<Item> items, String name) {
+        for (Item item : items) {
+            if (item.getName() == name) {
+                return item.getPrice();
+            }
+        }
+        return 0.0;
+    }
+
+    private double discountForItemName(ArrayList<Item>items, String name) {
+        double numberOfItems = this.numberOfItems(items, name);
+        return Math.floor(numberOfItems/2)* this.valueOfItem(items, name);
     }
 
 }
