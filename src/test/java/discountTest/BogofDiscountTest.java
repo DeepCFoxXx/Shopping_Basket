@@ -26,7 +26,7 @@ public class BogofDiscountTest {
         Item pasta2 = new Item("Pasta", 1.50);
         items.add( pasta1 );
         items.add( pasta2 );
-        assertEquals( 3.00, bogof.totalDiscount( items, 0.0  ), 0.001 );
+        assertEquals( 1.50, bogof.totalDiscount( items, 0.0  ), 0.001 );
     }
 
 }

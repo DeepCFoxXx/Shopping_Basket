@@ -31,9 +31,17 @@ public class BogofDiscount implements Discount{
         return 0.0;
     }
 
-    private double discountForItemName(ArrayList<Item>items, String name) {
+    private double discountForItemName(ArrayList<Item> items, String name) {
         double numberOfItems = this.numberOfItems(items, name);
         return Math.floor(numberOfItems/2)* this.valueOfItem(items, name);
+    }
+
+    public double totalDiscount(ArrayList<Item> items, double total) {
+        double savings = 0.0;
+        for (String itemName : this.bogofItemNames) {
+            savings = savings + discountForItemName(items, itemName);
+        }
+        return savings;
     }
 
 }
