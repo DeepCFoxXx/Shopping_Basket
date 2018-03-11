@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7adf7163-c522-4553-b0c2-6844aad9d783" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/discountTest/IntegrationTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/discountTest/BogofDiscountTest.java" afterPath="$PROJECT_DIR$/src/test/java/discountTest/BogofDiscountTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BogofDiscountTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BogofDiscountTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/discountTest/BogofDiscountTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
@@ -50,6 +50,18 @@
                 <element signature="e#377#383#0" expanded="true" />
                 <element signature="e#654#660#0" expanded="true" />
                 <element signature="e#1089#1095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegrationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/discountTest/IntegrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -404,6 +416,7 @@
         <option value="$PROJECT_DIR$/src/test/java/discountTest/PercentageDiscountTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/discount/BogofDiscount.java" />
         <option value="$PROJECT_DIR$/src/test/java/discountTest/BogofDiscountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/discountTest/IntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -524,7 +537,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BogofDiscountTest.shouldNotGiveDiscountIfOneItem">
+  <component name="RunManager" selected="JUnit.IntegrationTest.shouldUseBogof">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -615,7 +628,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="BogofDiscountTest.zeroGivenIfNoBogof" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.shouldUseBogof" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="discountTest.*" />
@@ -626,8 +639,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="discountTest" />
-      <option name="MAIN_CLASS_NAME" value="discountTest.BogofDiscountTest" />
-      <option name="METHOD_NAME" value="zeroGivenIfNoBogof" />
+      <option name="MAIN_CLASS_NAME" value="discountTest.IntegrationTest" />
+      <option name="METHOD_NAME" value="shouldUseBogof" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -727,18 +740,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.zeroGivenIfNoBogof" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.shouldGiveSavingIfTwoBogofItems" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.discountTest in ShoppingBasket_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.shouldNotGiveDiscountIfOneItem" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.shouldGiveSavingIfTwoBogofItems" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.discountTest in ShoppingBasket_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.shouldNotGiveDiscountIfOneItem" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IntegrationTest.shouldUseBogof" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.shouldNotGiveDiscountIfOneItem" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.discountTest in ShoppingBasket_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.shouldGiveSavingIfTwoBogofItems" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.zeroGivenIfNoBogof" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IntegrationTest.shouldUseBogof" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.shouldNotGiveDiscountIfOneItem" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in ShoppingBasket_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.discountTest in ShoppingBasket_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BogofDiscountTest.shouldGiveSavingIfTwoBogofItems" />
       </list>
     </recent_temporary>
   </component>
@@ -765,9 +778,6 @@
     <history-entry file="All_in_ShoppingBasket_test - 2018.03.10 at 16h 10m 58s.xml">
       <configuration name="All in ShoppingBasket_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasketTest_canUseDiscounts - 2018.03.08 at 13h 56m 25s.xml">
-      <configuration name="BasketTest.canUseDiscounts" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BogofDiscountTest_shouldGiveSavingIfTwoBogofItems - 2018.03.10 at 16h 09m 45s.xml">
       <configuration name="BogofDiscountTest.shouldGiveSavingIfTwoBogofItems" configurationId="JUnit" />
     </history-entry>
@@ -776,6 +786,9 @@
     </history-entry>
     <history-entry file="BogofDiscountTest_shouldNotGiveDiscountIfOneItem - 2018.03.10 at 16h 15m 44s.xml">
       <configuration name="BogofDiscountTest.shouldNotGiveDiscountIfOneItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest_shouldUseBogof - 2018.03.11 at 16h 02m 03s.xml">
+      <configuration name="IntegrationTest.shouldUseBogof" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PercentageDiscountTest_noDiscountBelowThreshold - 2018.03.08 at 14h 23m 22s.xml">
       <configuration name="PercentageDiscountTest.noDiscountBelowThreshold" configurationId="JUnit" />
@@ -802,7 +815,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3933975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3933975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -829,7 +842,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1075,6 +1088,16 @@
             <element signature="e#377#383#0" expanded="true" />
             <element signature="e#654#660#0" expanded="true" />
             <element signature="e#1089#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/discountTest/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
